@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --Light-red: hsl(0, 100%, 67%) ;
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+     --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);}
+
+
+
+
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+#comtainar{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 800px;
+    height: 500px;
+    border-radius: 12px;
+    margin: 50px auto;
+    box-shadow: 5px 5px 15px #00000045;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{ 
+    list-style: none;
+}
+.lift{
+    width: 45%;
+    background: linear-gradient(hsl(252, 100%, 67%) ,  hsl(241, 81%, 54%));
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.lift > p{
+    color: hsl(241, 100%, 89%);
+    font-size: 25px;
+    
+
+}
+.lift .circle{
+ background: linear-gradient( hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0)) ;
+ border-radius: 50%;
+ width: 170px;
+ height: 170px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.lift .circle p:first-child{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: hwb(0 100% 0%);
+
+
+}
+.lift .ii{
+    font-size: 20px;
+}
+
+.lift .circle p:last-child{
+     font-size: 25px;
+     color: hsl(241, 100%, 89%);
+
+     
+
+}
+
+.lift .great{
+    color:  hwb(0 100% 0%);
+    font-size: 40px;
+
+}
+ 
+.rhgit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 75px ;
+}
+.rhgit h1 {
+    color: hsl(224, 30%, 27%);
+    margin-left: 20px;
+}
+.rhgit ul li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px ;
+padding: 5px 10px ;
+border-radius: 10px;
+font-size: 15px;
+
+}
+.rhgit ul li p:first-child{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+     font-weight: bold;
+     
+}
+.rhgit ul li p:first-child svg{
+     margin-right: 10px;
+}
+.rhgit ul li p:last-child{
+     font-weight: bold;
+}
+.rhgit ul li:first-child p:first-child {
+    color:hsl(0, 100%, 67%) ;
+}
+.rhgit ul li:nth-child(2) p:first-child  {
+    color: hsl(39, 100%, 56%);
+}
+.rhgit ul li:nth-child(3) p:first-child{
+    color:hsl(166, 100%, 37%); ;
+}
+.rhgit ul li:nth-child(4) p:first-child{
+   color:hsl(234, 85%, 45%); 
+}
+#p{
+    background-color: hsla(0, 100%, 67%, 0.082);
+    
+}
+#pp{
+    background-color: hsla(39, 100%, 56%, 0.123);
+}
+#ppp{
+    background-color:hsla(166, 100%, 37%, 0.11) ;
+}
+#pppp{
+    background-color:hsla(234, 85%, 45%, 0.116) ;
+}
+.rhgit ul li p:last-child span:last-child{
+    color: hsl(241, 100%, 89%); 
+}
+button {
+background-color: hsl(224, 30%, 27%);
+height:50px ;
+border: none;
+margin-left: 50px;
+margin-bottom: 20px;
+border-radius: 30px;
+color:hsl(0, 0%, 100%) ;
+font-size: 30px;
+
+}
+
+button:hover{
+    background-color: hsl(234, 85%, 45%);}
+
+
+    
